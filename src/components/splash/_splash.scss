@@ -1,0 +1,52 @@
+.splash {
+    margin: auto 0;
+    padding: 90px 0;
+    color: #ECF0F1;
+    font-weight: 300;
+
+    h1 {
+      font-family: 'Reenie Beanie', cursive;
+      margin-top: 0.2em;
+      font-weight: 300;
+      color: #d9a089;
+    }
+
+    .tim {
+      font-weight: 500;
+    }
+
+    a, nav {
+      color: #d9a089;
+
+      a:hover {
+        color: lighten(#d9a089, 15%);
+        text-decoration: none;
+      }
+    }
+
+    img {
+      transition: all .2s ease-in-out;
+      padding: 50px;
+
+      &:hover{
+        transform: scale(1.02);
+      }
+    }
+}
+
+.box {
+  transition: all .2s ease-in-out;
+  width: 100%;
+  height: 100%;
+  background: #332F63;
+  border-radius: 20px;
+  padding: 30px 50px;
+  box-shadow: 0px 0px 20px 4px rgba(90, 59, 75, 0.7);
+  background-image: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, 0.4) 10%, rgba(138, 114, 76, 0) 40%), -webkit-linear-gradient(rgba(57, 173, 219, 0.25) 0%, rgba(42, 60, 87, 0.4) 100%), -webkit-linear-gradient(top left, #092756 0%, #670d10 100%);
+  background-image: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, 0.4) 10%, rgba(138, 114, 76, 0) 40%), -o-linear-gradient(rgba(57, 173, 219, 0.25) 0%, rgba(42, 60, 87, 0.4) 100%), -o-linear-gradient(top left, #092756 0%, #670d10 100%);
+  background-image: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, 0.4) 10%, rgba(138, 114, 76, 0) 40%), linear-gradient(rgba(57, 173, 219, 0.25) 0%, rgba(42, 60, 87, 0.4) 100%), linear-gradient(to bottom right, #092756 0%, #670d10 100%);
+
+  &:hover {
+    transform: scale(1.01);
+  }
+}

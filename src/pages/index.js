@@ -1,13 +1,11 @@
 /* global graphql */
 
 import React from 'react';
-import Features from '../components/features';
-import HowTo from '../components/how-to';
+import Splash from '../components/splash';
 
 const IndexPage = props =>
   (<main>
-    <Features data={props.data.allDataJson.edges[0].node.features} />
-    <HowTo data={props.data.allDataJson.edges[0].node.howTo} />
+    <Splash data={props.data.allDataJson.edges[0].node.howTo} />
   </main>);
 
 export default IndexPage;

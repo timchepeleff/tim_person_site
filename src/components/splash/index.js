@@ -19,6 +19,10 @@ const Splash = props =>
                 My name is Tim Chepeleff and I’m a developer with a penchant for the web, interactive UI’s, and straightforward user experiences. I embrace opportunities to solve complex problems efficiently. Able to understand both the developer and business perspectives I can address technical issues with comprehensive solutions.
               </p>
 
+              <p className='mt-3'>
+                I'm currently working at <a href="https://wayfair.com" target="_blank">Wayfair </a> and building kick-ass automated deployment tools to ensure that our developers can ship early, and ship often.
+              </p>
+
               <nav className="text-center mt-4">
                 <a href="https://github.com/timchepeleff" target="_blank">Github </a> |
                 <a href="https://www.linkedin.com/in/timchepeleff" target="_blank"> LinkedIn </a> |

@@ -24,6 +24,9 @@
     "helmet": "^3.10.0",
     "serve-static": "^1.13.1"
   },
+  "engines": {
+    "node": ">= 8.3.0"
+  },
   "devDependencies": {
     "autoprefixer": "^7.2.5",
     "bootstrap": "^4.0.0",

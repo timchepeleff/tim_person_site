@@ -21,6 +21,8 @@ module.exports = function(app) {
     res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
     res.setHeader('Access-Control-Allow-Credentials', true);
 
+    console.log("hey tim this is a thing");
+
     if (process.env.NODE_ENV !== 'production') {
       res.setHeader('X-Robots-Tag', "noindex, nofollow");
     }
